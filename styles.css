@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+body{
+    background-color: azure;
+}
+
+.theme{
+    border: 6px solid blueviolet;
+    border-radius: 50px;
+}
+#heading{
+margin-left: 31rem;
+font-size: 2rem;
+}
+
+.quiz{
+    
+    background-color: rgb(0, 162, 255);
+    margin-bottom: 5rem;
+    border-radius: 20px;
+}
