@@ -23,3 +23,19 @@ font-size: 2rem;
     margin-bottom: 5rem;
     border-radius: 20px;
 }
+
+.right-ans{
+    background-color: green;
+    color: white;
+}
+
+.wrong-ans{
+    background-color: red;
+    color: wheat;
+}
+
+.hide{
+    display: none;
+  margin-left: 20rem;
+
+}
