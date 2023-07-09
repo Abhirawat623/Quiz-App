@@ -2,10 +2,9 @@ let quizes= [];
 let currentIndex=0;
 let score = 0 ;
 
-const body = document.querySelector(".theme");
 
 const quizContainer = document.querySelector(".quiz");
-body.appendChild(quizContainer);
+
 const quesContainer = document.querySelector(".question-container");
 quizContainer.appendChild(quesContainer);
 const optContainer = document.querySelector(".options-container");
@@ -151,13 +150,15 @@ createQuesAndOpt(quizes,currentIndex);
 if(currentIndex === (quizes.length-1)){
     nextButton.innerText="Submit";
     return;
-}};
+}}
+
 
 if(nextButton.innerText === "Submit"){
-quizContainer.classList.add("hide");
+  
+    quizContainer.innerHTML="";
+    byeMessage.classList.remove("hide");
 
 }
-
 });
 
 
