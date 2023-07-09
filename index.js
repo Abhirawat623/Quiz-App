@@ -32,9 +32,9 @@ const URL = "https://opentdb.com/api.php?amount=10&category=17&difficulty=easy&t
 
 
 
-const getData =async(url)=>{
+const getData =async(URL)=>{
     try{
-        const {data: {results}} = await axios.get(url) //promise is pending 
+        const {data: {results}} = await axios.get(URL) //promise is pending 
         // console.log(data); destructuring data for finding results from API
         return results;
     }
@@ -44,7 +44,7 @@ const getData =async(url)=>{
     }
 }
 
-// getData(URL);                //above url is not cap
+// getData(URL);                //above url can be cap or small
 //the above is async so wait for the promise from API, below it will be made as promise
 
 //finding quizes data:-
