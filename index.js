@@ -89,7 +89,7 @@ function createQuesAndOpt(quizes,index) {
      };
 };
 
-setTimeout(() => createQuesAndOpt(quizes,currentIndex),1000); //imp for async js
+setTimeout(() => createQuesAndOpt(quizes,currentIndex),500); //imp for async js
 
 //for right ans
 //for disabling wrong button
